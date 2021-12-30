@@ -1,46 +1,152 @@
 {
   "portfolio": {
-    "header": {
-      "title": "Моё портфолио",
-      "links": [
-        {
-          "title": "Главная",
-          "link": "#"
-        },
-        {
-          "title": "Скиллы",
-          "link": "#"
-        },
-        {
-          "title": "Работы",
-          "link": "#"
-        },
-        {
-          "title": "Контакты",
-          "link": "#"
-        }
-      ]
-    },
-    "presentation": "Привет! Меня зовут Степан. Я front-end разработчик.",
-    "skills" : [
-      {
-        "id": "1",
-        "title": "React",
-        "logo": "reactLogo",
-        "description": "React - JS библиотека для создания пользовательских интерфейсов. Я познакомился с ней более года назад, с тех пор пишу учебные проекты на ней"
+    "ru": {
+      "header": {
+        "title": "Моё портфолио",
+        "links": [
+          {
+            "title": "Главная",
+            "link": "#home"
+          },
+          {
+            "title": "Скиллы",
+            "link": "#skills"
+          },
+          {
+            "title": "Работы",
+            "link": "#works"
+          },
+          {
+            "title": "Контакты",
+            "link": "#contacts"
+          }
+        ]
       },
-      {
-        "id": "2",
-        "title": "Redux",
-        "logo": "reduxLogo",
-        "description": "Redux - самый популярный менеджер состояний для React. Освоил эту библиотеку вместе с React, так же использую дополнительные библиотеки, такие как: React-Redux, Redux-thunk, Redux-toolkit."
+      "presentation": "Привет! Меня зовут Степан. Я front-end разработчик.",
+      "skills": {
+        "title": "Мои Навыки",
+        "mySkills": [
+          {
+            "id": "1",
+            "title": "React",
+            "logo": "/static/react-logo.png",
+            "description": "React - JS библиотека для создания пользовательских интерфейсов. Я познакомился с ней более года назад, с тех пор пишу учебные проекты на ней"
+          },
+          {
+            "id": "2",
+            "title": "Redux",
+            "logo": "reduxLogo",
+            "description": "Redux - самый популярный менеджер состояний для React. Освоил эту библиотеку вместе с React, так же использую дополнительные библиотеки, такие как: React-Redux, Redux-thunk, Redux-toolkit."
+          },
+          {
+            "id": "3",
+            "title": "TypeScript",
+            "logo": "typeScriptLogo",
+            "description": "TypeScript - язык программирования, расширяющий возможности JavaScript. Пишу приложения в основном на TS, так как статическая типизация упрощает разработку"
+          }
+        ]
       },
-      {
-        "id": "3",
-        "title": "TypeScript",
-        "logo": "typeScriptLogo",
-        "description": "TypeScript - язык программирования, расширяющий возможности JavaScript. Пишу приложения в основном на TS, так как статическая типизация упрощает разработку"
+      "works": {
+        "title": "Мои работы",
+        "btnTitle": "Посмотреть",
+        "myWorks": [
+          {
+            "title": "Социальная сеть",
+            "img": "socialNetImg",
+            "description": "Проект 'Социальная сеть' создан с помощью библиотеки Реакт. Менеджер состояния - Редакс. API используется с ресурса https://social-network.samuraijs.com/docs"
+          },
+          {
+            "title": "Список дел",
+            "img": "todoList",
+            "description": "Проект 'Список дел' создан с помощью библиотеки Реакт. Менеджер состояния - Редакс. API используется с ресурса https://social-network.samuraijs.com/docs"
+          }
+        ]
+      },
+      "distanceWorking": {
+        "title": "Рассматриваю варианты удаленной работы",
+        "hireBtn": "Нанять меня",
+        "formBtn": "Отправить",
+        "formTitle": "Контакты"
+      },
+      "footer": {
+        "rights": "©2022 Все права защищены",
+        "name": "Степан Андросов"
       }
-    ]
+    },
+    "en": {
+      "header": {
+        "title": "My portfolio",
+        "links": [
+          {
+            "title": "Home",
+            "link": "#home"
+          },
+          {
+            "title": "Skills",
+            "link": "#skills"
+          },
+          {
+            "title": "Works",
+            "link": "#works"
+          },
+          {
+            "title": "Contacts",
+            "link": "#contacts"
+          }
+        ]
+      },
+      "presentation": "Hi! My name is Stepan. I`m front-end developer.",
+      "skills": {
+        "title": "My skills",
+        "mySkills": [
+          {
+            "id": "1",
+            "title": "React",
+            "logo": "reactLogo",
+            "description": "React - JS library for creating user interfaces. I started learning React more than a year ago, and since then I have been writing educational projects on this library."
+          },
+          {
+            "id": "2",
+            "title": "Redux",
+            "logo": "reduxLogo",
+            "description": "Redux - The most popular state manager for React. I mastered this library together with React, I also use additional libraries such as React-Redux, Redux-thunk, Redux-toolkit."
+          },
+          {
+            "id": "3",
+            "title": "TypeScript",
+            "logo": "typeScriptLogo",
+            "description": "TypeScript - a programming language that extends the capabilities of JavaScript. I write applications mainly in TS as static typing simplifies development"
+          }
+        ]
+      },
+      "works": {
+        "title": "My works",
+        "btnTitle": "Look",
+        "myWorks": [
+          {
+            "title": "SocialNetwork",
+            "img": "socialNetImg",
+            "description": "Проект 'Социальная сеть' создан с помощью библиотеки Реакт. Менеджер состояния - Редакс. API используется с ресурса https://social-network.samuraijs.com/docs"
+          },
+          {
+            "title": "Todolist",
+            "img": "todoList",
+            "description": "Проект 'Список дел' создан с помощью библиотеки Реакт. Менеджер состояния - Редакс. API используется с ресурса https://social-network.samuraijs.com/docs"
+          }
+        ]
+      },
+      "distanceWorking": {
+        "title": "Remote work possible",
+        "hireBtn": "Hire me",
+        "formBtn": "Send",
+        "formTitle": "Contacts"
+      },
+      "footer": {
+        "rights": "©2022 All rights reserved",
+        "name": "Stepan Androsov"
+      }
+    }
   }
 }
+
+

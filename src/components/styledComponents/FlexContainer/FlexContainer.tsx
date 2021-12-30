@@ -9,6 +9,7 @@ type StyledPropsType = {
     padding?: string
     bgColor?: string
     rounded?: string
+    onBlur?: () => void
 }
 
 const StyledFlex = styled.div<StyledPropsType>`
